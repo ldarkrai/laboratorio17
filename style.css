@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	font-family: 'Sour Gummy';
+	margin: 0;
+}
+
+body{
+	background-color: antiquewhite;
+}
+
+header{
+	background-color: cadetblue;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 10px;
+	color: whitesmoke;
+	border-bottom: 2px solid black;
+	text-shadow: 2px 3px 3px black;
+	margin-bottom: 15px;
+}
+
+.sect{
+	margin: 15px;
+	padding: 10px;
+	background-color: rgba(188, 234, 250, 0.664);
+	box-shadow: 2px 5px 5px black;
+	border-radius: 5px;
+	margin-bottom: 70px;
+}
+
+#contactForm{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	gap: 10px;
+
+}
+
+label{
+	height: -15px;
+}
+
+input{
+	border:0;
+	border-radius: 6px;
+	box-shadow: 2px 3px 2px grey;
+}
+
+button{
+	background-color: aquamarine;
+	border-color:rgba(188, 234, 250, 0.664);
+	box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+
+button:hover{
+	background-color: cornflowerblue;
+	color: azure;
+	border-radius: 5px white;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: aquamarine;
+}
+
+#habil li{
+	list-style-type: none;
+	text-decoration: none;
+	background-color: antiquewhite;
+	max-width: 90%;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+footer{
+	background-color: cadetblue;
+	padding: 10px;
+	color: whitesmoke;
+	text-shadow: 2px 3px 3px black;
+	margin-bottom: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	border-top: 2px solid black;
+	bottom: 0;
+}
+
+.container{
+	margin-bottom: 50px;
+}
+
+h2{
+	text-shadow: 2px 3px 3px rgb(167, 166, 166);
+}
